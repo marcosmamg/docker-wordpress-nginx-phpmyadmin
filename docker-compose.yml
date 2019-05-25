@@ -12,8 +12,8 @@ services:
       - front
       - back
     volumes:
-      - ./wp-content/plugins/wordcampmga:/var/www/html/wp-content/plugins/wordcampmga
-      - ./wp-content/themes/wprig/:/var/www/html/wp-content/themes/wprig/
+      - ./wp-content/plugins/:/var/www/html/wp-content/plugins/
+      - ./wp-content/themes/:/var/www/html/wp-content/themes/
       - ./complete_install.sh:/tmp/complete_install.sh
       - ./package.json:/var/www/html/package.json
 
